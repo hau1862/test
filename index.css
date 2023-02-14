@@ -1,0 +1,82 @@
+#country {
+	font-size: 14px;
+	width: 360px;
+	padding: 8px;
+	outline: none;
+}
+
+#country optgroup {}
+
+#country option {}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.form-control {
+	border: 1px solid rgb(220, 220, 220);
+	width: -moz-fit-content;
+	width: fit-content;
+}
+
+input[name="age"] {
+	font-size: 16px;
+	text-align: center;
+	width: 40px;
+	border: none;
+	outline: none;
+	line-height: 32px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.age-button {
+	font-size: 28px;
+	width: 44px;
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+	line-height: 32px;
+}
+
+.form-group {
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+}
+
+.form-group .form-input {
+	position: relative;
+	padding: 12px;
+	width: 240px;
+	font-size: 16px;
+}
+
+.form-group .form-label {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	padding: 12px;
+	transition: .1s ease;
+}
+
+.form-group .form-input::placeholder {
+	color: transparent
+}
+
+.form-group .form-input:focus,
+.form-group .form-input:not(.form-input:placeholder-shown) {
+	padding: 18px 12px 6px;
+}
+
+.form-group .form-input:focus~.form-label,
+.form-group .form-input:not(.form-input:placeholder-shown)~.form-label {
+	bottom: auto;
+	right: auto;
+	padding: 4px 8px;
+	font-size: 10px;
+}
